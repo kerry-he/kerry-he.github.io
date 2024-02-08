@@ -17,8 +17,8 @@ author_profile: true
 [Conference](https://austms2023.smp.uq.edu.au/){: .btn--research}
 
 
-- **SIAM Conference on Optimization (SIOP 23)**   \\
-  *Title: Computation of the Quantum Rate-Distortion Function* \\
+- **SIAM Conference on Optimization (OP23)**   \\
+  *Title: Mirror Descent and Quantum Blahut-Arimoto Algorithms* \\
   June 2023, Seattle, United States \\
 [Paper](https://arxiv.org/abs/2306.04492){: .btn--research}
 [Conference](https://www.siam.org/conferences/cm/conference/op23){: .btn--research}
