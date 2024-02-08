@@ -5,6 +5,10 @@ permalink: /talks/
 author_profile: true
 ---
 
+{% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
+
 {% include base_path %}
 - The 67th Annual Meeting of the Australian Mathematical Society (AustMS 2023)   \\
   Title: Computation of the Quantum Rate-Distortion Function \\
@@ -38,6 +42,6 @@ author_profile: true
 
 - The 2021 International Conference on Robotics and Automation (ICRA 2021)   \\
   Title: Learning to Place Objects onto Flat Surfaces in Upright Orientations \\
-  June 2021, Xi'an, China (Online)
+  June 2021, Xi'an, China (Online) \\
 [Paper](https://ieeexplore.ieee.org/abstract/document/9384169){: .btn--research}
 [Conference](https://ieeexplore.ieee.org/xpl/conhome/9560720/proceeding){: .btn--research}
