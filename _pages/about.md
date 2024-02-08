@@ -12,4 +12,4 @@ I am currently a Ph.D. candidate in Electrical and Computer Systems Engineering 
 
 I received my B.Eng. (Honours) and B.Comm. majoring in Mechatronics Engineering and Finance, respectively, from Monash University. During this time, I worked on several projects involving optimal control and trajectory planning for robotic manipulators and driverless vehicles.
 
-My CV can be found [here](files/cv.pdf).
+My CV can be found [here](/files/cv.pdf).
