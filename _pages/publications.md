@@ -50,6 +50,6 @@ You can also find my articles on <u><a href="{{https://scholar.google.com/citati
 
 
 # Theses
-- K. He, "Designing a Receding Horizon Planner for an Autonomous Formula Student Racecar," B.Eng. (Honours) thesis, Mechatronics Engineering, Monash University, Clayton, Australia, 2020
+- K. He, "Designing a Receding Horizon Planner for an Autonomous Formula Student Racecar," B.Eng. (Honours) Thesis, Mechatronics Engineering, Monash University, Clayton, Australia, 2020 \\
 [Thesis](/files/bachelor_thesis.pdf){: .btn--research}
 [Paper](/files/bachelor_thesis_paper.pdf){: .btn--research}
