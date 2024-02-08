@@ -5,8 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on <u><a href="{{https://scholar.google.com/citations?user=AXXeL24AAAAJ}}">my Google Scholar profile</a>.</u>
-
 {% include base_path %}
 
 - K. He, J. Saunderson, H Fawzi, “Efficient Computation of the Quantum Rate-Distortion Function,” *arXiv preprint arXiv:2306.04492*, 2023. \\
