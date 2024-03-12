@@ -1,0 +1,31 @@
+---
+title: "Robotic Placement"
+excerpt: "Learning to place objects onto flat surfaces in upright orientations.<br/><img src='/images/place.gif'>"
+collection: portfolio
+---
+
+This project studies the problem of placing a grasped object on an empty flat surface in an upright orientation, such as placing a cup on its bottom rather than on its side. We aim to find the required object rotation such that when the gripper is opened after the object makes contact with the surface, the object would be stably placed in the upright orientation. We iteratively use two neural networks. At every iteration, we use a convolutional neural network to estimate the required object rotation, which is executed by the robot, and then a separate convolutional neural network to estimate the quality of a placement in its current orientation. Our approach places previously unseen objects in upright orientations with a success rate of 98.1% in free space and 90.3% with a simulated robotic arm, using a dataset of 50 everyday objects in simulation experiments. Real-world experiments were performed, which achieved an 88.0% success rate, which serves as a proof-of-concept for direct sim-to-real transfer.
+
+<figure>
+<center>
+<video width="640" height="360" controls>
+  <source src="/files/place_sim.mp4" type="video/mp4">
+Your browser does not support videos.
+</video>
+</center>
+<figcaption>Simulated experiments of the object placement algorithm.</figcaption>
+</figure>
+
+<figure>
+<center>
+<video width="640" height="360" controls>
+  <source src="/files/place_real.mp4" type="video/mp4">
+Your browser does not support videos.
+</video>
+</center>
+<figcaption>Real-world experiments of the object placement algorithm.</figcaption>
+</figure>
+
+<a class="btn--research" href="https://ieeexplore.ieee.org/abstract/document/9384169/">Paper</a>
+<a class="btn--research" href="https://arxiv.org/abs/2004.00249">arXiv</a>
+<a class="btn--research" href="/files/icra21.pdf">Slides</a>
