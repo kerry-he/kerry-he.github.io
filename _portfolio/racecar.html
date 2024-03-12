@@ -11,29 +11,30 @@ In autonomous driving, the motion planning subsystem is required to determine a 
 <!-- ![](/images/racecar/mpc.png) -->
 <figure>
   <img src="/images/racecar/mpc.png" alt="mpc" class="align-center" width=auto height=300px>
-    <figcaption>Receding horizon planning algorithm. Only the controls at the first time step of the solved optimal control trajectory are used. In the next time step, the prediction horizon shifts forward by a time step, and the optimal trajectory is recomputed to find an updated set of controls. </figcaption>
+    <figcaption>Receding horizon planning algorithm. Only the controls at the first time step of the solved optimal control trajectory are used. In the next time step, the prediction horizon shifts forward by a time step, and the optimal trajectory is recomputed to find an updated set of controls.</figcaption>
 </figure>
 
 
 First, a dynamic bicycle model in a curvilinear coordinate system is used to model the racecar.
 
 <!-- ![](/images/racecar/vehicle.png) -->
-<img src="/images/racecar/vehicle.png" alt="vehicle" class="align-center" width=auto height=300px>
+<figure>
+  <img src="/images/racecar/vehicle.png" alt="vehicle" class="align-center" width=auto height=300px>
+    <figcaption>Dynamic bicycle model in curvilinear coordinates.</figcaption>
+</figure>
 
-An optimal racing line is precomputed offline by solving for a periodic time-optimal trajectory along the entire track, which the MPC then tracks in real time. 
-
-<!-- ![](/images/racecar/trajectory.png) -->
-<img src="/images/racecar/trajectory.png" alt="trajectory" class="align-center" width=auto height=300px>
-
-Through simulated experiments, the proposed MPC is shown to be robust to noise, time delay and modelling error, and successfully outperforms Monash Motorsport’s previous motion planning and control implementations. The MPC is demonstrated to safely achieve speeds of up to 25 m/s while running in real time at 50 Hz.
+An optimal racing line is precomputed offline by solving for a periodic time-optimal trajectory along the entire track, which the MPC then tracks in real time. Through simulated experiments, the proposed MPC is shown to be robust to noise, time delay and modelling error, and successfully outperforms Monash Motorsport’s previous motion planning and control implementations. The MPC is demonstrated to safely achieve speeds of up to 25 m/s while running in real time at 50 Hz.
 
 <!-- ![](/images/racecar/racing.gif) -->
-<img src="/images/racecar/racing.gif" alt="racing" class="align-center" width=auto height=300px>
+<figure>
+  <img src="/images/racecar/racing.gif" alt="racing" class="align-center" width=auto height=300px>
+    <figcaption>Simulated trajectory of the vehicle using the model predictive controller. Behaviour expected from racing such as corner cutting and slowing down before tight corners can be observed.</figcaption>
+</figure>
 
 This project was completed as part of my Honours Thesis, which can be accessed below.
 
-<a href="/files/bachelor_thesis.pdf"><button class="btn research">Thesis</button></a>
-<a href="/files/bachelor_thesis_paper.pdf"><button class="btn research">Paper</button></a>
+<a href="/files/bachelor_thesis.pdf"><button class="btn--research">Thesis</button></a>
+<a href="/files/bachelor_thesis_paper.pdf"><button class="btn--research">Paper</button></a>
 <!-- [Thesis](/files/bachelor_thesis.pdf){: .btn--research}
 [Paper](/files/bachelor_thesis_paper.pdf){: .btn--research}
  -->
