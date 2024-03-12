@@ -4,37 +4,30 @@ excerpt: "Trajectory optimization and model predictive control for a Formula Stu
 collection: portfolio
 ---
 
-Formula Student Driverless is a university engineering design competition which started in 2017 and is ran by <a href="https://www.formulastudent.de/fsg/">Formula Student</a>. The competition tasks student teams with designing, building, and programming a Formula-style race car which can autonomously navigate through known and unknown tracks as quickly as possible. Points are awarded for each mission based on the times taken to complete them, with time penalties if the car exits the track boundaries.
+Formula Student Driverless is a university engineering design competition which started in 2017 and is ran by <a href="https://www.formulastudent.de/fsg/">Formula Student</a>. The competition tasks student teams with designing, building, and programming a Formula-style race car which can autonomously navigate through known and unknown tracks as quickly as possible. Points are awarded for each mission based on the times taken to complete them, with time penalties if the car exits the track boundaries.<br />
 
 In autonomous driving, the motion planning subsystem is required to determine a feasible state and control trajectory to navigate the vehicle to perform a specific task. This project implements a model predictive controller (MPC) to perform motion planning for <a href="https://www.monashmotorsport.com/">Monash Motorsport</a>’s autonomous racecar to compete in the Formula Student Driverless competition. 
 
-<!-- ![](/images/racecar/mpc.png) -->
 <figure>
-  <img src="/images/racecar/mpc.png" alt="mpc" class="align-center" width=auto height=300px>
-    <figcaption>Receding horizon planning algorithm. Only the controls at the first time step of the solved optimal control trajectory are used. In the next time step, the prediction horizon shifts forward by a time step, and the optimal trajectory is recomputed to find an updated set of controls.</figcaption>
+  <img src="/images/racecar/mpc.png" alt="mpc" class="align-center" width=auto height="300">
+    <figcaption>Model predictive control algorithm. Only the controls at the first time step of the solved optimal control trajectory are used. In the next time step, the prediction horizon shifts forward by a time step, and the optimal trajectory is recomputed to find an updated set of controls.</figcaption>
 </figure>
 
+Overall, a linear time-varying MPC formulation utilising a dynamic bicycle model is proposed, where the vehicle dynamics and path constraints are linearised at each time step, allowing the MPC to be formulated and solved as a quadratic program.
 
-First, a dynamic bicycle model in a curvilinear coordinate system is used to model the racecar.
-
-<!-- ![](/images/racecar/vehicle.png) -->
 <figure>
-  <img src="/images/racecar/vehicle.png" alt="vehicle" class="align-center" width=auto height=300px>
+  <img src="/images/racecar/vehicle.png" alt="vehicle" class="align-center" width=auto height="300">
     <figcaption>Dynamic bicycle model in curvilinear coordinates.</figcaption>
 </figure>
 
 An optimal racing line is precomputed offline by solving for a periodic time-optimal trajectory along the entire track, which the MPC then tracks in real time. Through simulated experiments, the proposed MPC is shown to be robust to noise, time delay and modelling error, and successfully outperforms Monash Motorsport’s previous motion planning and control implementations. The MPC is demonstrated to safely achieve speeds of up to 25 m/s while running in real time at 50 Hz.
 
-<!-- ![](/images/racecar/racing.gif) -->
 <figure>
-  <img src="/images/racecar/racing.gif" alt="racing" class="align-center" width=auto height=300px>
+  <img src="/images/racecar/racing.gif" alt="racing" class="align-center" width=auto height="300">
     <figcaption>Simulated trajectory of the vehicle using the model predictive controller. Behaviour expected from racing such as corner cutting and slowing down before tight corners can be observed.</figcaption>
 </figure>
 
-This project was completed as part of my Honours Thesis, which can be accessed below.
+This project was completed as part of my Honours Thesis in 2020, which can be accessed below. <br />
 
 <a href="/files/bachelor_thesis.pdf"><button class="btn--research">Thesis</button></a>
 <a href="/files/bachelor_thesis_paper.pdf"><button class="btn--research">Paper</button></a>
-<!-- [Thesis](/files/bachelor_thesis.pdf){: .btn--research}
-[Paper](/files/bachelor_thesis_paper.pdf){: .btn--research}
- -->
