@@ -1,0 +1,34 @@
+---
+title: "Visibility Maximization Controller"
+excerpt: "Controller for robotic manipulators which avoids self-occlusions.<br/><img src='/images/vmc/exp1.gif'>"
+collection: portfolio
+---
+
+Closed-loop control methods such as visual serving aim to increase the accuracy of the manipulation task by utilizing continuous sensor feedback, and are also robust to dynamically changing environments. These controllers depend on continuous feedback of the target's position, and therefore, losing visibility of the target is detrimental to the controller performance. For eye-to-hand camera setups, self-occlusions are a common problem, which are occlusions caused by a robot's own body.<br />
+<br />
+Using the redundant degrees of freedom of a robotic manipulator, it is possible to perform the task of controlling the manipulator to a target while simultaneously performing a different task, such as avoiding self-occlusions. For complex robotic systems which include a mobile base or a camera mounted onto an independently controllable end-effector, additional redundant degrees of freedom can be exploited to improve controller performance.<br />
+<br />
+We proposed an optimization-based reactive controller, which aims to maximize the visibility to target(s) by minimizing self-occlusions, while simultaneously reaching a goal configuration. An objective function is constructed for a robot to perform a reaching task that aims to keep the target in sight and avoid self-occlusions, while keeping the robot away from singularities and joint limits. The controller then solves for the joint velocities that minimize this objective function at each time-step using a quadratic program.<br />
+<br />
+The performance of the proposed controller is validated in a range of randomized simulation experiments and real-world experiments which include static and mobile bases, static and controlled camera configurations, scenarios with single or multiple, and static or moving objects. These experiments show that the proposed controller successfully reduces self-occlusion rates while remaining robust to complex environments and not sacrificing significantly on task efficiency.
+
+<figure>
+  <img src="/images/vmc/exp1.gif" alt="exp1" style="display:block;margin-left:auto;margin-right:auto;width:auto;height:300px">
+    <figcaption>Top-down grasping in a cluttered environment. The robotic manipulator aims to grasp the red block on the top right, while avoiding occlusions with all remaining red blocks.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/vmc/exp2.gif" alt="exp2" style="display:block;margin-left:auto;margin-right:auto;width:auto;height:300px">
+    <figcaption>Top-down grasping of a moving object. The robotic manipulator tracks a moving red block while avoiding blocking it from the camera's view.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/vmc/exp3.gif" alt="exp3" style="display:block;margin-left:auto;margin-right:auto;width:auto;height:300px">
+    <figcaption>Grasping with a mobile manipulator. The mobile robot aims to grasp a red apple without blocking it from its view, by simultaneously controlling the robotic arm, mobile base, and head which mounts the camera.</figcaption>
+</figure>
+<br />
+<a class="btn--research" href="https://ieeexplore.ieee.org/abstract/document/9815144">Paper</a>
+<a class="btn--research" href="https://arxiv.org/abs/2202.12557">arXiv</a>
+<a class="btn--research" href="https://rhys-newbury.github.io/projects/vmc/">Website</a>
+<a class="btn--research"href="https://www.youtube.com/watch?v=vobLvg4E3kM">Video</a>
+<a class="btn--research" href="/files/iros22.pdf">Slides</a>
