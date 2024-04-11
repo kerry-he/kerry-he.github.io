@@ -7,16 +7,17 @@ author_profile: true
 
 {% include base_path %}
 
-- K. He, J. Saunderson, H Fawzi, “Efficient Computation of the Quantum Rate-Distortion Function,” *arXiv preprint arXiv:2306.04492*, 2023. \\
-[arXiv](https://arxiv.org/abs/2309.15919){: .btn--research}
-[Code](https://github.com/kerry-he/efficient-qrd){: .btn--research}
-
 - K. He, J. Saunderson, H Fawzi, “A Bregman Proximal Perspective on Classical and Quantum Blahut-Arimoto Algorithms,” *arXiv preprint arXiv:2306.04492*, 2023. \\
 [arXiv](https://arxiv.org/abs/2306.04492){: .btn--research}
 
 
 # Journal Publications
-- K. He, W. P. Chan, A. Cosgun, A. Joy, and E. A. Croft, “Robot Gaze During Autonomous Navigation and Its Effect on Social Presence,” *International Journal of Social Robotics*, 2023, pp. 1-19. \\
+- K. He, J. Saunderson, H Fawzi, “Efficient Computation of the Quantum Rate-Distortion Function,” *Quantum*, vol. 8, pp. 1314, April 2024. \\
+[Paper](https://quantum-journal.org/papers/q-2024-04-09-1314/){: .btn--research}
+[arXiv](https://arxiv.org/abs/2309.15919){: .btn--research}
+[Code](https://github.com/kerry-he/efficient-qrd){: .btn--research}
+
+- K. He, W. P. Chan, A. Cosgun, A. Joy, and E. A. Croft, “Robot Gaze During Autonomous Navigation and Its Effect on Social Presence,” *International Journal of Social Robotics*, pp. 1-19, June 2023. \\
 [Paper](https://link.springer.com/article/10.1007/s12369-023-01023-y){: .btn--research}
 [arXiv](https://arxiv.org/abs/2305.05852){: .btn--research}
 
