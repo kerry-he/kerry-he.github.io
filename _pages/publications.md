@@ -9,7 +9,7 @@ author_profile: true
 
 - K. He, J. Saunderson, H Fawzi, “Exploiting Structure in Quantum Relative Entropy Programs,” *arXiv preprint arXiv:2407.00241*, 2024. \\
 [arXiv](https://arxiv.org/abs/2407.00241){: .btn--research}
-
+[Code](https://github.com/kerry-he/qrep-structure){: .btn--research}
 
 # Journal Publications
 - K. He, J. Saunderson, H Fawzi, “A Bregman Proximal Perspective on Classical and Quantum Blahut-Arimoto Algorithms,” *IEEE Robotics and Automation Letters (early access)*, June 2024. \\
