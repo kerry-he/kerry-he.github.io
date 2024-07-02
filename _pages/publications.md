@@ -7,11 +7,15 @@ author_profile: true
 
 {% include base_path %}
 
-- K. He, J. Saunderson, H Fawzi, “A Bregman Proximal Perspective on Classical and Quantum Blahut-Arimoto Algorithms,” *arXiv preprint arXiv:2306.04492*, 2023. \\
-[arXiv](https://arxiv.org/abs/2306.04492){: .btn--research}
+- K. He, J. Saunderson, H Fawzi, “Exploiting Structure in Quantum Relative Entropy Programs,” *arXiv preprint arXiv:2407.00241*, 2024. \\
+[arXiv](https://arxiv.org/abs/2407.00241){: .btn--research}
 
 
 # Journal Publications
+- K. He, J. Saunderson, H Fawzi, “A Bregman Proximal Perspective on Classical and Quantum Blahut-Arimoto Algorithms,” *IEEE Robotics and Automation Letters (early access)*, June 2024. \\
+[Paper](https://ieeexplore.ieee.org/abstract/document/10552808){: .btn--research}
+[arXiv](https://arxiv.org/abs/2306.04492){: .btn--research}
+
 - K. He, J. Saunderson, H Fawzi, “Efficient Computation of the Quantum Rate-Distortion Function,” *Quantum*, vol. 8, pp. 1314, April 2024. \\
 [Paper](https://quantum-journal.org/papers/q-2024-04-09-1314/){: .btn--research}
 [arXiv](https://arxiv.org/abs/2309.15919){: .btn--research}
