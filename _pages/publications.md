@@ -12,7 +12,11 @@ author_profile: true
 [Code](https://github.com/kerry-he/qrep-structure){: .btn--research}
 
 # Journal Publications
-- K. He, J. Saunderson, H Fawzi, “A Bregman Proximal Perspective on Classical and Quantum Blahut-Arimoto Algorithms,” *IEEE Robotics and Automation Letters (early access)*, June 2024. \\
+- R. Newbury, J. Collins, K. He, J. Pan, I. Posner, D. Howard, A. Cosgun, “A Review of Differentiable Simulators,” *IEEE Access (early access)*, July 2024. \\
+[Paper](https://ieeexplore.ieee.org/abstract/document/10589638){: .btn--research}
+[Website](https://rhys-newbury.github.io/projects/DiffSim/){: .btn--research}
+
+- K. He, J. Saunderson, H Fawzi, “A Bregman Proximal Perspective on Classical and Quantum Blahut-Arimoto Algorithms,” *IEEE Transactions on Information Theory (early access)*, June 2024. \\
 [Paper](https://ieeexplore.ieee.org/abstract/document/10552808){: .btn--research}
 [arXiv](https://arxiv.org/abs/2306.04492){: .btn--research}
 
