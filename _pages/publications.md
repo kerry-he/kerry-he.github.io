@@ -16,7 +16,7 @@ author_profile: true
 [Paper](https://ieeexplore.ieee.org/abstract/document/10589638){: .btn--research}
 [Website](https://rhys-newbury.github.io/projects/DiffSim/){: .btn--research}
 
-- K. He, J. Saunderson, H Fawzi, “A Bregman Proximal Perspective on Classical and Quantum Blahut-Arimoto Algorithms,” *IEEE Transactions on Information Theory (early access)*, June 2024. \\
+- K. He, J. Saunderson, H Fawzi, “A Bregman Proximal Perspective on Classical and Quantum Blahut-Arimoto Algorithms,” *IEEE Transactions on Information Theory*, vol. 70, no. 8, pp. 5710-5730, Aug. 2024. \\
 [Paper](https://ieeexplore.ieee.org/abstract/document/10552808){: .btn--research}
 [arXiv](https://arxiv.org/abs/2306.04492){: .btn--research}
 
