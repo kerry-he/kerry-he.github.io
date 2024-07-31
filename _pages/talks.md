@@ -10,6 +10,13 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+- **The 25th International Symposium on Mathematical Programming (ISMP 2024)**   \\
+  *Title: Bregman Proximal Methods for Quantum Information Theoretic Problems* \\
+  July 2024, Montreal, Canada \\
+[Paper](https://arxiv.org/abs/2306.04492){: .btn--research}
+[Slides](/files/ismp2024.pdf){: .btn--research}
+[Conference](https://ismp2024.gerad.ca/){: .btn--research}
+
 - **The 67th Annual Meeting of the Australian Mathematical Society (AustMS 2023)**   \\
   *Title: Computation of the Quantum Rate-Distortion Function* \\
   December 2023, Brisbane, Australia \\
