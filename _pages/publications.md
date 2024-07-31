@@ -12,17 +12,16 @@ author_profile: true
 [Code](https://github.com/kerry-he/qrep-structure){: .btn--research}
 
 # Journal Publications
-- R. Newbury, J. Collins, K. He, J. Pan, I. Posner, D. Howard, A. Cosgun, “A Review of Differentiable Simulators,” *IEEE Access (early access)*, July 2024. \\
-[Paper](https://ieeexplore.ieee.org/abstract/document/10589638){: .btn--research}
-[Website](https://rhys-newbury.github.io/projects/DiffSim/){: .btn--research}
-
-- K. He, J. Saunderson, H Fawzi, “A Bregman Proximal Perspective on Classical and Quantum Blahut-Arimoto Algorithms,” *IEEE Transactions on Information Theory*, vol. 70, no. 8, pp. 5710-5730, Aug. 2024. \\
+- K. He, J. Saunderson, H Fawzi, “A Bregman Proximal Perspective on Classical and Quantum Blahut-Arimoto Algorithms,” *IEEE Transactions on Information Theory*, vol. 70, no. 8, pp. 5710-5730, August 2024. \\
 [Paper](https://ieeexplore.ieee.org/abstract/document/10552808){: .btn--research}
 [arXiv](https://arxiv.org/abs/2306.04492){: .btn--research}
 
+- R. Newbury, J. Collins, K. He, J. Pan, I. Posner, D. Howard, A. Cosgun, “A Review of Differentiable Simulators,” *IEEE Access*, vol. 12, pp. 97581-97604, July 2024. \\
+[Paper](https://ieeexplore.ieee.org/abstract/document/10589638){: .btn--research}
+[Website](https://rhys-newbury.github.io/projects/DiffSim/){: .btn--research}
+
 - K. He, J. Saunderson, H Fawzi, “Efficient Computation of the Quantum Rate-Distortion Function,” *Quantum*, vol. 8, pp. 1314, April 2024. \\
 [Paper](https://quantum-journal.org/papers/q-2024-04-09-1314/){: .btn--research}
-[arXiv](https://arxiv.org/abs/2309.15919){: .btn--research}
 [Code](https://github.com/kerry-he/efficient-qrd){: .btn--research}
 
 - K. He, W. P. Chan, A. Cosgun, A. Joy, and E. A. Croft, “Robot Gaze During Autonomous Navigation and Its Effect on Social Presence,” *International Journal of Social Robotics*, pp. 1-19, June 2023. \\
