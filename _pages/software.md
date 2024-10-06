@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+Below, I list some open-source software projects that I have worked on.
+
 # Quantum Information Conic Solver
 
 QICS is a primal-dual interior point solver fully implemented in Python, and is specialized towards problems arising in quantum information theory. Features of QICS include
