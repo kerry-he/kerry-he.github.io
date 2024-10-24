@@ -7,6 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
+- K. He, J. Saunderson, H Fawzi, “QICS: Quantum Information Conic Solver,” *arXiv preprint arXiv:2410.17803*, 2024. \\
+[arXiv](https://arxiv.org/abs/2410.17803){: .btn--research}
+[Code](https://github.com/kerry-he/qics){: .btn--research}
+[Documentation](https://qics.readthedocs.io/en/stable/){: .btn--research}
+
 - K. He, J. Saunderson, H Fawzi, “Exploiting Structure in Quantum Relative Entropy Programs,” *arXiv preprint arXiv:2407.00241*, 2024. \\
 [arXiv](https://arxiv.org/abs/2407.00241){: .btn--research}
 [Code](https://github.com/kerry-he/qrep-structure){: .btn--research}
